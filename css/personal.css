@@ -1,0 +1,40 @@
+.top-item{
+  height: 60vh;
+  background-image: url('../imgs/bg.jpg');
+}
+
+.navbar-nav li a{
+  font-size: larger;
+  color: #607290;
+  font-weight: bolder;
+}
+
+.navbar-nav li a:hover{
+  color: white;
+
+}
+.item-2{
+  background-color: #050510;
+  color: white;
+  padding-top: 3%;
+  padding-bottom: 3%;
+
+}
+.item-2-discrip{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.btn-primary{
+  width: 30% !important;
+  border-radius: 40px !important;
+  height: 25%;
+}
+
+.btn-primary:hover{
+background:linear-gradient(160deg,#a11f85 0%,#d2538a 100%);
+outline: none !important;
+}
+
+
