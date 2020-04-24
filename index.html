@@ -18,11 +18,15 @@
             <a class="navbar-brand" href="#">
                 <img src="./imgs/brand.png" width="30" height="30" alt="">
             </a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
-                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#defaultNavbar1"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation"
+                style="color: #607290 !important;">
+
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
             </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
+            <div class="collapse navbar-collapse" id="defaultNavbar1">
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item active">
                         <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
@@ -43,21 +47,24 @@
                 </ul>
             </div>
         </nav>
+        
     </div>
 
     <!-- item 2 -->
     <div class="container-fluid item-2">
         <h1 style="text-align: center; margin-bottom: 4%;">Our EXchange Rates</h1>
         <div class="row">
-            <div class="col item-2-discrip">
-                <h2>EXPal Buy E-Currency Rate</h2>
-                <h3 style="text-align: center;">PayPal USD : GHs 5.1 / $1.00<br>
-                    Bitcoin USD : GHs / $1.00</h3>
-                <button type="button" class="btn btn-primary btn-lg">Buy Paypal</button>
+            <div class="col-md-6 col-sm-12" style="padding-bottom:5%;">
+                <div class="item-2-discrip">
+                    <h2>EXPal Buy E-Currency Rate</h2>
+                    <h3 style="text-align: center;">PayPal USD : GHs 5.1 / $1.00<br>
+                        Bitcoin USD : GHs / $1.00</h3>
+                    <button type="button" class="btn btn-primary btn-lg">Buy Paypal</button>
+                </div>
             </div>
 
-            <div class="col">
-                <div class="col item-2-discrip">
+            <div class="col-md-6 col-sm-12" style="padding-bottom:5%;">
+                <div class="item-2-discrip">
                     <h2>EXPal Sell E-Currency Rate</h2>
                     <h3 style="text-align: center;">PayPal USD : GHs 4.55 / $1.00<br>
                         Bitcoin USD : GHs (state your rate) / $1.00</h3>
@@ -89,40 +96,93 @@
 
         <div class="container">
             <div class="row item-4-body">
-                <div class="col ">
+                <div class=" col-md-4 col-sm-12 " id="mobile-view">
                     <h1><span><i class="fa fa-sign-in" aria-hidden="true"></i>Buy E-Currencies</span></h1>
                     <p>You can buy PayPal funds (dollars) / cryptocurrencies into your already existing PayPal account /
                         Wallet at the rates above with your Mobile Money Wallet. Note, the maximum you buy per day is
                         $1000
                         and the minimum you can buy is $20.00 (GHS 100)</p>
-                        <button type="button" class="btn btn-primary btn-lg" style="width: 50% !important;">Buy Now</button>
+                    <button type="button" class="btn btn-primary btn-lg" style="width: 50% !important;">Buy Now</button>
 
                 </div>
 
-                <div class="col">
+                <div class="col-md-4 col-sm-12" id="mobile-view">
                     <h1><span><i class="fa fa-money" aria-hidden="true"></i> Sell E-Currencies</span></h1>
                     <p>You can exchange your PayPal funds (dollars) for Ghana Cedis, which will be paid to you through a
                         Mobile Money Wallet. Note, the maximum you can sell is $2000 and the minimum is $20.00 per day.
                         We
                         do not require you to create an EXPal account.</p>
-                        <button type="button" class="btn btn-primary btn-lg" style="width: 50% !important;">Sell Now</button>
+                    <button type="button" class="btn btn-primary btn-lg" style="width: 50% !important;">Sell
+                        Now</button>
 
                 </div>
 
-                <div class="col">
+                <div class="col-md-4 col-sm-12" id="mobile-view">
                     <h1><span><i class="fa fa-cc-mastercard" aria-hidden="true"></i> Buy Virtual Visa Cards</span></h1>
                     <p>Have multiple PayPal accounts and you like to verify it all with a credit card. We have Address
                         Verification System (AVS) enabled cards. The cards are easy to use, no monthly fee and are non
                         reloadable. You can buy an unlimited number of cards</p>
-                        <button type="button" class="btn btn-primary btn-lg" style="width: 50% !important;">Order Now</button>
+                    <button type="button" class="btn btn-primary btn-lg" style="width: 50% !important;">Order
+                        Now</button>
 
                 </div>
             </div>
         </div>
+    </div>
 
+    <!-- item-5 -->
+    <div style="padding:5% 0 5% 0; background-color: #04040e;">
+        <div class="container">
+            <h1 style="margin-bottom: 4%; color: white;">EXPal Supported Payment <br> Channels</h1>
+            <div class="row">
+
+                <div class="col-md-3 col-sm-12" style="margin-bottom: 3%;">
+                    <img src="./imgs/mtn.jpg"  class="img-res">
+                </div>
+
+                <div class="col-md-3 col-sm-12" style="margin-bottom: 3%;">
+                    <img src="./imgs/voda.png" class="img-res">
+                </div>
+
+                <div class="col-md-3 col-sm-12" style="margin-bottom: 3%;">
+                    <img src="./imgs/air.png"  class="img-res">
+                </div>
+
+                <div class="col-md-3 col-sm-12" style="margin-bottom: 3%;">
+                    <img src="./imgs/master.jpeg"  class="img-res">
+                </div>
+            </div>
+        </div>
 
     </div>
 
+    <!-- item 6 -->
+
+    <footer style="background-color: #060411; padding: 3% 0 4% 0;">
+        <div class="item-6-body">
+            <img src="./imgs/brand.png" height="80px" width="80px">
+            <p style="color: #607290;">Subscribe so that you don't miss out on updates.</p>
+
+            <!-- add the input -->
+            <!--  -->
+            <div style="text-align: center; margin-bottom: 1%;">
+                <button class="ui circular facebook icon button">
+                    <i class="facebook f icon"></i>
+                  </button>
+
+                  <button class="ui circular linkedin icon button">
+                    <i class="linkedin icon"></i>
+                  </button>
+    
+                  <button class="ui circular twitter icon button">
+                    <i class="fa fa-twitter" aria-hidden="true"></i>
+                  </button>     
+            </div>
+            <p style="color: #607290;">UviTech EXPal © 2017 - 2020 All rights reserved. </p>
+            <p style="color: #607290;">Proudly Powered by UviTech, Inc.</p>
+
+        </div>
+    </footer>
 
 </body>
 <script src="./js/jquery.min.js"></script>

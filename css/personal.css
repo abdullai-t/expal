@@ -67,3 +67,18 @@ text-align: center;
 .i34{
 background-color: #060610;
 }
+
+#mobile-view{
+  margin-top: 10%;
+}
+.img-res{
+  height: 80px;
+  width: 150px;
+}
+
+.item-6-body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
