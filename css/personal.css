@@ -37,4 +37,33 @@ background:linear-gradient(160deg,#a11f85 0%,#d2538a 100%);
 outline: none !important;
 }
 
+.item-3-body{
+  color: #607290;
+  padding: 0.3% 20% 2% 20%;
 
+}
+
+.item-3 p{
+margin-top: 0em;
+margin-bottom: 1.4em;
+text-align: center;
+} 
+.item-3{
+  padding-top: 3%;
+}
+
+.item-4-body h1 span{
+ color: white;
+}
+
+.item-4-body p{
+  color: #607290;
+ }
+ .item-4-body{
+   padding-top: 3%;
+   padding-bottom: 3%;
+ }
+
+.i34{
+background-color: #060610;
+}
